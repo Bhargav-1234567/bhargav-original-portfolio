@@ -1,0 +1,35 @@
+.skills-container{
+    background-image: radial-gradient(#00000055 1px,transparent 0);
+    padding: 1rem;
+.outer-sec{
+    margin-bottom: 1rem;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    border-radius: 10px;
+    padding: 1rem;
+    .skill-header{
+        margin-bottom: 1rem;
+         font-size: 30px;
+        color: white;
+        border-bottom: 1px solid white;
+     
+    }
+    .skill-list{
+        .skill-item{
+            width: 120px;
+            height: 120px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+
+            
+        }
+        .skill-item-title{
+            text-wrap: nowrap;
+        }
+    }
+}
+}
